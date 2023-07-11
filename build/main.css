@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  padding: 8px;
+  background-color: #ff0000;
+  margin-bottom: 26px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .link {
+  color: #ffffff;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 18px;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu img {
+  width: 30px;
+  height: 32px;
+}
+
+footer {
+  padding: 12px;
+  background-color: #ff0000;
+  text-align: center;
+}
+footer p {
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */

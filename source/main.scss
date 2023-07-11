@@ -1,0 +1,61 @@
+@use 'config/reset';
+@use 'config/variaveis';
+
+body {
+    background-color: variaveis.$corFundo;
+}
+
+header {
+    padding: 8px;
+    background-color: variaveis.$corPrincipal;
+    margin-bottom: 26px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .link {
+        color: variaveis.$corSecundaria;
+
+    }
+
+}
+
+.menu {
+    
+
+    li {
+        display: inline;
+        margin-left: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color: variaveis.$corSecundaria;
+    }
+
+    img {
+        width: 30px;
+        height: 32px;
+    }
+
+}
+
+footer {
+    padding: 12px;
+    background-color: variaveis.$corPrincipal;
+    text-align: center;
+
+    p {
+        color: variaveis.$corSecundaria;
+    }
+
+    a {
+        color: variaveis.$corSecundaria;
+        text-decoration: underline;
+        
+    }
+}
+
