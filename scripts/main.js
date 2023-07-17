@@ -6,7 +6,6 @@ $(document).ready(function(){
         const tituloNoticia = $('#tituloNoticia').val();
         const descricaoNoticia = $('#descricaoNoticia').val();
         const textoNoticia = $('#textoNoticia').val();
-        console.log('Botao cadastrar clicado');
 
         novaNoticia = $('<div class="col-sm-12 col-md-6 col-lg-4 p-4"></div');
 
