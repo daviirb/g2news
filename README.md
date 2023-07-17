@@ -1,4 +1,4 @@
-# portal-noticias
+# G2 News - Portal de Notícias
 O Desafio:
 
 Construir uma aplicação de cadastro de notícias, categorias e busca de notícias.
